@@ -1,0 +1,17 @@
+{
+	"fa-affix/offsetBottom": {
+		"description": "Pixels to offset from bottom when calculating position of scroll",
+		"optionType": "number",
+		"defaultValue": "-"
+	},
+	"fa-affix/offsetTop": {
+		"description": "Pixels to offset from top when calculating position of scroll",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"fa-affix/target": {
+		"description": "specifies the scrollable area dom node",
+		"optionType": "() => HTMLElement",
+		"defaultValue": "() => window"
+	}
+}

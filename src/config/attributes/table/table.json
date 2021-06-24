@@ -1,0 +1,127 @@
+{
+	"fa-table/bordered": {
+		"description": "Whether to show all table borders",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-table/childrenColumnName": {
+		"description": "The column contains children to display",
+		"optionType": "string[]",
+		"defaultValue": "children"
+	},
+	"fa-table/columns": {
+		"description": "Columns of table",
+		"optionType": "array",
+		"defaultValue": "-"
+	},
+	"fa-table/components": {
+		"description": "Override default table elements",
+		"optionType": "object",
+		"defaultValue": "-"
+	},
+	"fa-table/dataSource": {
+		"description": "Data record array to be displayed",
+		"optionType": "any[]",
+		"defaultValue": "-"
+	},
+	"fa-table/defaultExpandAllRows": {
+		"description": "Expand all rows initially",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-table/defaultExpandedRowKeys": {
+		"description": "Initial expanded row keys",
+		"optionType": "string[]",
+		"defaultValue": "-"
+	},
+	"fa-table/expandedRowKeys": {
+		"description": "Current expanded row keys",
+		"optionType": "string[]",
+		"defaultValue": "-"
+	},
+	"fa-table/expandedRowRender": {
+		"description": "Expanded container render for each row",
+		"optionType": "Function(record, index, indent, expanded):VNode|slot-scope",
+		"defaultValue": "-"
+	},
+	"fa-table/expandIcon": {
+		"description": "Customize row expand Icon.",
+		"optionType": "Function(props):VNode | slot=\"expandIcon\" slot-scope=\"props\"",
+		"defaultValue": "-"
+	},
+	"fa-table/expandRowByClick": {
+		"description": "Whether to expand row by clicking anywhere in the whole row",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-table/footer": {
+		"description": "Table footer renderer",
+		"optionType": "Function(currentPageData)|slot-scope",
+		"defaultValue": ""
+	},
+	"fa-table/indentSize": {
+		"description": "Indent size in pixels of tree data",
+		"optionType": "number",
+		"defaultValue": "15"
+	},
+	"fa-table/loading": {
+		"description": "Loading status of table",
+		"optionType": "boolean|object",
+		"defaultValue": "false"
+	},
+	"fa-table/locale": {
+		"description": "i18n text including filter, sort, empty text, etc",
+		"optionType": "object",
+		"defaultValue": "filterConfirm: 'Ok' \nfilterReset: 'Reset' \nemptyText: 'No Data'\n\n"
+	},
+	"fa-table/pagination": {
+		"description": "Pagination config or [Pagination] (/faicomponent/components/pagination/), hide it by setting it to false",
+		"optionType": "object",
+		"defaultValue": ""
+	},
+	"fa-table/rowClassName": {
+		"description": "Row's className",
+		"optionType": "Function(record, index):string",
+		"defaultValue": "-"
+	},
+	"fa-table/rowKey": {
+		"description": "Row's unique key, could be a string or function that returns a string",
+		"optionType": "string|Function(record):string",
+		"defaultValue": "key"
+	},
+	"fa-table/rowSelection": {
+		"description": "Row selection config",
+		"optionType": "object",
+		"defaultValue": "null"
+	},
+	"fa-table/scroll": {
+		"description": "Set horizontal or vertical scrolling, can also be used to specify the width and height of the scroll area. It is recommended to set a number for x, if you want to set it to true, you need to add style .ant-table td { white-space: nowrap; }.",
+		"optionType": "{ x: number | true, y: number }",
+		"defaultValue": "-"
+	},
+	"fa-table/showHeader": {
+		"description": "Whether to show table header",
+		"optionType": "boolean",
+		"defaultValue": "true"
+	},
+	"fa-table/size": {
+		"description": "Size of table",
+		"optionType": "default | middle | small",
+		"defaultValue": "default"
+	},
+	"fa-table/title": {
+		"description": "Table title renderer",
+		"optionType": "Function(currentPageData)|slot-scope",
+		"defaultValue": ""
+	},
+	"fa-table/customHeaderRow": {
+		"description": "Set props on per header row",
+		"optionType": "Function(column, index)",
+		"defaultValue": "-"
+	},
+	"fa-table/customRow": {
+		"description": "Set props on per row",
+		"optionType": "Function(record, index)",
+		"defaultValue": "-"
+	}
+}

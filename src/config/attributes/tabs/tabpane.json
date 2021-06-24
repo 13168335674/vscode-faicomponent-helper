@@ -1,0 +1,17 @@
+{
+	"fa-tab-pane/forceRender": {
+		"description": "Forced render of content in tabs, not lazy render after clicking on tabs",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-tab-pane/key": {
+		"description": "TabPane's key",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"fa-tab-pane/tab": {
+		"description": "Show text in TabPane's head",
+		"optionType": "string|slot",
+		"defaultValue": "-"
+	}
+}

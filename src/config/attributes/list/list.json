@@ -1,0 +1,62 @@
+{
+	"fa-list/bordered": {
+		"description": "Toggles rendering of the border around the list",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-list/footer": {
+		"description": "List footer renderer",
+		"optionType": "string|slot",
+		"defaultValue": "-"
+	},
+	"fa-list/grid": {
+		"description": "The grid type of list. You can set grid to something like {gutter: 16, column: 4}",
+		"optionType": "object",
+		"defaultValue": "-"
+	},
+	"fa-list/header": {
+		"description": "List header renderer",
+		"optionType": "string|slot",
+		"defaultValue": "-"
+	},
+	"fa-list/itemLayout": {
+		"description": "The layout of list, default is horizontal, If a vertical list is desired, set the itemLayout property to vertical",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"fa-list/loading": {
+		"description": "Shows a loading indicator while the contents of the list are being fetched",
+		"optionType": "boolean|object",
+		"defaultValue": "false"
+	},
+	"fa-list/loadMore": {
+		"description": "Shows a load more content",
+		"optionType": "string|slot",
+		"defaultValue": "-"
+	},
+	"fa-list/locale": {
+		"description": "i18n text including empty text",
+		"optionType": "object",
+		"defaultValue": "emptyText: 'No Data' \n"
+	},
+	"fa-list/pagination": {
+		"description": "Pagination config, hide it by setting it to false",
+		"optionType": "boolean | object",
+		"defaultValue": "false"
+	},
+	"fa-list/split": {
+		"description": "Toggles rendering of the split under the list item",
+		"optionType": "boolean",
+		"defaultValue": "true"
+	},
+	"fa-list/renderItem": {
+		"description": "Custom item renderer, slot=\"renderItem\" and slot-scope=\"item, index\"",
+		"optionType": "(item, index) => vNode",
+		"defaultValue": ""
+	},
+	"fa-list/rowKey": {
+		"description": "Specify the key that will be used for uniquely identify each element",
+		"optionType": "item => string|number",
+		"defaultValue": ""
+	}
+}

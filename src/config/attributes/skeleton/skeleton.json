@@ -1,0 +1,27 @@
+{
+	"fa-skeleton/active": {
+		"description": "Show animation effect",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-skeleton/avatar": {
+		"description": "Show avatar placeholder",
+		"optionType": "boolean | SkeletonAvatarProps",
+		"defaultValue": "false"
+	},
+	"fa-skeleton/loading": {
+		"description": "Display the skeleton when true",
+		"optionType": "boolean",
+		"defaultValue": "-"
+	},
+	"fa-skeleton/paragraph": {
+		"description": "Show paragraph placeholder",
+		"optionType": "boolean | SkeletonParagraphProps",
+		"defaultValue": "true"
+	},
+	"fa-skeleton/title": {
+		"description": "Show title placeholder",
+		"optionType": "boolean | SkeletonTitleProps",
+		"defaultValue": "true"
+	}
+}

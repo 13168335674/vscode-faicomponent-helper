@@ -1,0 +1,55 @@
+{
+	"fa-tabs/activeKey": {
+		"description": "Current TabPane's key",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"fa-tabs/animated": {
+		"description": "Whether to change tabs with animation. Only works while tabPosition=\"top\"\\|\"bottom\"",
+		"optionType": "boolean | {inkBar:boolean, tabPane:boolean}",
+		"defaultValue": "true, false when type=\"card\""
+	},
+	"fa-tabs/defaultActiveKey": {
+		"description": "Initial active TabPane's key, if activeKey is not set.",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"fa-tabs/hideAdd": {
+		"description": "Hide plus icon or not. Only works while type=\"editable-card\"",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-tabs/size": {
+	  "options": ["large", "default", "small"],
+		"description": "preset tab bar size",
+		"optionType": "large | default | small",
+		"defaultValue": "default"
+	},
+	"fa-tabs/tabBarExtraContent": {
+		"description": "Extra content in tab bar",
+		"optionType": "slot",
+		"defaultValue": "-"
+	},
+	"fa-tabs/tabBarStyle": {
+		"description": "Tab bar style object",
+		"optionType": "object",
+		"defaultValue": "-"
+	},
+	"fa-tabs/tabPosition": {
+	  "options": ["top", "right", "bottom", "left"],
+		"description": "Position of tabs",
+		"optionType": "top | right | bottom | left",
+		"defaultValue": "top"
+	},
+	"fa-tabs/type": {
+	  "options": ["line", "card", "editable-card"],
+		"description": "Basic style of tabs",
+		"optionType": "line | card | editable-card",
+		"defaultValue": "line"
+	},
+	"fa-tabs/tabBarGutter": {
+		"description": "The gap between tabs",
+		"optionType": "number",
+		"defaultValue": "-"
+	}
+}

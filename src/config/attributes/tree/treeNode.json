@@ -1,0 +1,62 @@
+{
+	"fa-tree-node/class": {
+		"description": "className",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"fa-tree-node/style": {
+		"description": "style",
+		"optionType": "string|object",
+		"defaultValue": "-"
+	},
+	"fa-tree-node/disableCheckbox": {
+		"description": "Disables the checkbox of the treeNode",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-tree-node/disabled": {
+		"description": "Disables the treeNode",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-tree-node/icon": {
+		"description": "customize icon. When you pass component, whose render will receive full TreeNode props as component props",
+		"optionType": "slot|slot-scope",
+		"defaultValue": "-"
+	},
+	"fa-tree-node/isLeaf": {
+		"description": "Determines if this is a leaf node(effective when loadData is specified)",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-tree-node/key": {
+		"description": "Used with (default)ExpandedKeys / (default)CheckedKeys / (default)SelectedKeys. P.S.: It must be unique in all of treeNodes of the tree!",
+		"optionType": "string | number",
+		"defaultValue": "internal calculated position of treeNode"
+	},
+	"fa-tree-node/selectable": {
+		"description": "Set whether the treeNode can be selected",
+		"optionType": "boolean",
+		"defaultValue": "true"
+	},
+	"fa-tree-node/title": {
+		"description": "Title",
+		"optionType": "string|slot|slot-scope",
+		"defaultValue": "'---'"
+	},
+	"fa-tree-node/slots": {
+		"description": "When using treeNodes, you can use this property to configure the properties that support the slot, such as slots: { title: 'XXX'}",
+		"optionType": "object",
+		"defaultValue": "-"
+	},
+	"fa-tree-node/scopedSlots": {
+		"description": "When using treeNodes, you can use this property to configure the properties that support the slot-scope, such as scopedSlots: { title: 'XXX'}",
+		"optionType": "object",
+		"defaultValue": "-"
+	},
+	"fa-tree-node/on": {
+		"description": "When using treeNodes, you can use this property to configure the events, such as on: { click: () => {}}",
+		"optionType": "object",
+		"defaultValue": "-"
+	}
+}

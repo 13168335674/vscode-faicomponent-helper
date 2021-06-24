@@ -1,0 +1,17 @@
+{
+	"fa-card-meta/avatar": {
+		"description": "avatar or icon",
+		"optionType": "slot",
+		"defaultValue": "-"
+	},
+	"fa-card-meta/description": {
+		"description": "description content",
+		"optionType": "string|slot",
+		"defaultValue": "-"
+	},
+	"fa-card-meta/title": {
+		"description": "title content",
+		"optionType": "string|slot",
+		"defaultValue": "-"
+	}
+}

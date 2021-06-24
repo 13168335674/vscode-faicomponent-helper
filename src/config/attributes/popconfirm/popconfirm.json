@@ -1,0 +1,27 @@
+{
+	"fa-popconfirm/cancelText": {
+		"description": "text of the Cancel button",
+		"optionType": "string|slot",
+		"defaultValue": "Cancel"
+	},
+	"fa-popconfirm/okText": {
+		"description": "text of the Confirm button",
+		"optionType": "string|slot",
+		"defaultValue": "Confirm"
+	},
+	"fa-popconfirm/okType": {
+		"description": "Button type of the Confirm button",
+		"optionType": "string",
+		"defaultValue": "primary"
+	},
+	"fa-popconfirm/title": {
+		"description": "title of the confirmation box",
+		"optionType": "string|slot",
+		"defaultValue": "-"
+	},
+	"fa-popconfirm/icon": {
+		"description": "customize icon of confirmation",
+		"optionType": "vNode|slot",
+		"defaultValue": "<Icon type=\"exclamation-circle\" />"
+	}
+}

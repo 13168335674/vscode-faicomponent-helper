@@ -1,0 +1,63 @@
+{
+	"fa-tooltip/arrowPointAtCenter": {
+		"description": "Whether the arrow is pointed at the center of target",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-tooltip/autoAdjustOverflow": {
+		"description": "Whether to adjust popup placement automatically when popup is off screen",
+		"optionType": "boolean",
+		"defaultValue": "true"
+	},
+	"fa-tooltip/defaultVisible": {
+		"description": "Whether the floating tooltip card is visible by default",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-tooltip/getPopupContainer": {
+		"description": "The DOM container of the tip, the default behavior is to create a div element in body.",
+		"optionType": "Function(triggerNode)",
+		"defaultValue": "() => document.body"
+	},
+	"fa-tooltip/mouseEnterDelay": {
+		"description": "Delay in seconds, before tooltip is shown on mouse enter",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"fa-tooltip/mouseLeaveDelay": {
+		"description": "Delay in seconds, before tooltip is hidden on mouse leave",
+		"optionType": "number",
+		"defaultValue": "0.1"
+	},
+	"fa-tooltip/overlayClassName": {
+		"description": "Class name of the tooltip card",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"fa-tooltip/overlayStyle": {
+		"description": "Style of the tooltip card",
+		"optionType": "object",
+		"defaultValue": "-"
+	},
+	"fa-tooltip/placement": {
+		"description": "The position of the tooltip relative to the target, which can be one of top left right bottom topLeft topRight bottomLeft bottomRight leftTop leftBottom rightTop rightBottom",
+		"optionType": "string",
+		"defaultValue": "top"
+	},
+	"fa-tooltip/trigger": {
+	  "options": ["hover", "focus", "click", "contextmenu"],
+		"description": "Tooltip trigger mode",
+		"optionType": "hover | focus | click | contextmenu",
+		"defaultValue": "hover"
+	},
+	"fa-tooltip/visible": {
+		"description": "Whether the floating tooltip card is visible or not",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-tooltip/align": {
+		"description": "this value will be merged into placement's config, please refer to the settings dom-align",
+		"optionType": "Object",
+		"defaultValue": "-"
+	}
+}

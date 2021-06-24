@@ -1,0 +1,42 @@
+{
+	"fa-anchor/affix": {
+		"description": "Fixed mode of Anchor",
+		"optionType": "boolean",
+		"defaultValue": "true"
+	},
+	"fa-anchor/bounds": {
+		"description": "Bounding distance of anchor area",
+		"optionType": "number",
+		"defaultValue": "5(px)"
+	},
+	"fa-anchor/getContainer": {
+		"description": "Scrolling container",
+		"optionType": "() => HTMLElement",
+		"defaultValue": "() => window"
+	},
+	"fa-anchor/offsetBottom": {
+		"description": "Pixels to offset from bottom when calculating position of scroll",
+		"optionType": "number",
+		"defaultValue": "-"
+	},
+	"fa-anchor/offsetTop": {
+		"description": "Pixels to offset from top when calculating position of scroll",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"fa-anchor/showInkInFixed": {
+		"description": "Whether show ink-balls in Fixed mode",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-anchor-link/href": {
+		"description": "target of hyperlink",
+		"optionType": "string",
+		"defaultValue": ""
+	},
+	"fa-anchor-link/title": {
+		"description": "content of hyperlink",
+		"optionType": "string|slot",
+		"defaultValue": ""
+	}
+}

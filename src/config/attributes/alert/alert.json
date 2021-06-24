@@ -1,0 +1,48 @@
+{
+	"fa-alert/afterClose": {
+		"description": "Called when close animation is finished",
+		"optionType": "() => void",
+		"defaultValue": "-"
+	},
+	"fa-alert/banner": {
+		"description": "Whether to show as banner",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-alert/closable": {
+		"description": "Whether Alert can be closed",
+		"optionType": "boolean",
+		"defaultValue": "-"
+	},
+	"fa-alert/closeText": {
+		"description": "Close text to show",
+		"optionType": "string|slot",
+		"defaultValue": "-"
+	},
+	"fa-alert/description": {
+		"description": "Additional content of Alert",
+		"optionType": "string|slot",
+		"defaultValue": "-"
+	},
+	"fa-alert/icon": {
+		"description": "Custom icon, effective when showIcon is true",
+		"optionType": "vnode | slot",
+		"defaultValue": "-"
+	},
+	"fa-alert/message": {
+		"description": "Content of Alert",
+		"optionType": "string|slot",
+		"defaultValue": "-"
+	},
+	"fa-alert/showIcon": {
+		"description": "Whether to show icon",
+		"optionType": "boolean",
+		"defaultValue": "false, in banner mode default is true"
+	},
+	"fa-alert/type": {
+	  "options": ["success", "info", "warning", "error"],
+		"description": "Type of Alert styles, options: success, info, warning, error",
+		"optionType": "string",
+		"defaultValue": "info, in banner mode default is warning"
+	}
+}

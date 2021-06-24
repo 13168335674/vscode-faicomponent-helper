@@ -1,0 +1,62 @@
+{
+	"fa-input-number/autoFocus": {
+		"description": "get focus when component mounted",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-input-number/defaultValue": {
+		"description": "initial value",
+		"optionType": "number",
+		"defaultValue": ""
+	},
+	"fa-input-number/disabled": {
+		"description": "disable the input",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-input-number/formatter": {
+		"description": "Specifies the format of the value presented",
+		"optionType": "function(value: number | string): string",
+		"defaultValue": "-"
+	},
+	"fa-input-number/max": {
+		"description": "max value",
+		"optionType": "number",
+		"defaultValue": "Infinity"
+	},
+	"fa-input-number/min": {
+		"description": "min value",
+		"optionType": "number",
+		"defaultValue": "-Infinity"
+	},
+	"fa-input-number/parser": {
+		"description": "Specifies the value extracted from formatter",
+		"optionType": "function( string): number",
+		"defaultValue": "-"
+	},
+	"fa-input-number/precision": {
+		"description": "precision of input value",
+		"optionType": "number",
+		"defaultValue": "-"
+	},
+	"fa-input-number/decimalSeparator": {
+		"description": "decimal separator",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"fa-input-number/size": {
+		"description": "width of input box",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"fa-input-number/step": {
+		"description": "The number to which the current value is increased or decreased. It can be an integer or decimal.",
+		"optionType": "number|string",
+		"defaultValue": "1"
+	},
+	"fa-input-number/value": {
+		"description": "current value",
+		"optionType": "number",
+		"defaultValue": ""
+	}
+}

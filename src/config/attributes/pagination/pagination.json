@@ -1,0 +1,68 @@
+{
+	"fa-pagination/current": {
+		"description": "current page number",
+		"optionType": "number",
+		"defaultValue": "-"
+	},
+	"fa-pagination/defaultCurrent": {
+		"description": "default initial page number",
+		"optionType": "number",
+		"defaultValue": "1"
+	},
+	"fa-pagination/defaultPageSize": {
+		"description": "default number of data items per page",
+		"optionType": "number",
+		"defaultValue": "10"
+	},
+	"fa-pagination/hideOnSinglePage": {
+		"description": "Whether to hide pager on single page",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-pagination/itemRender": {
+		"description": "to customize item innerHTML",
+		"optionType": "(page, type: 'page' | 'prev' | 'next', originalElement) => vNode",
+		"defaultValue": "-"
+	},
+	"fa-pagination/pageSize": {
+		"description": "number of data items per page",
+		"optionType": "number",
+		"defaultValue": "-"
+	},
+	"fa-pagination/pageSizeOptions": {
+		"description": "specify the sizeChanger options",
+		"optionType": "string[]",
+		"defaultValue": "['10', '20', '30', '40']"
+	},
+	"fa-pagination/showQuickJumper": {
+		"description": "determine whether you can jump to pages directly",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-pagination/showSizeChanger": {
+		"description": "determine whether pageSize can be changed",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-pagination/showTotal": {
+		"description": "to display the total number and range",
+		"optionType": "Function(total, range)",
+		"defaultValue": "-"
+	},
+	"fa-pagination/simple": {
+		"description": "whether to use simple mode",
+		"optionType": "boolean",
+		"defaultValue": "-"
+	},
+	"fa-pagination/size": {
+	  "options": ["small", "large"],
+		"description": "specify the size of Pagination, can be set to small",
+		"optionType": "string",
+		"defaultValue": "\"\""
+	},
+	"fa-pagination/total": {
+		"description": "total number of data items",
+		"optionType": "number",
+		"defaultValue": "0"
+	}
+}

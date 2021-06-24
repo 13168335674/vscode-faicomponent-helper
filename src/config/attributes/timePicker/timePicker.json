@@ -1,0 +1,117 @@
+{
+	"fa-time-picker/addon": {
+		"description": "some addon to timepicker panel bottom",
+		"optionType": "slot | slot-scope",
+		"defaultValue": "-"
+	},
+	"fa-time-picker/allowEmpty": {
+		"description": "allow clearing text",
+		"optionType": "boolean",
+		"defaultValue": "true"
+	},
+	"fa-time-picker/autoFocus": {
+		"description": "get focus when component mounted",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-time-picker/clearText": {
+		"description": "clear tooltip of icon",
+		"optionType": "string",
+		"defaultValue": "clear"
+	},
+	"fa-time-picker/defaultOpenValue": {
+		"description": "default open panel value, used to set utcOffset,locale if value/defaultValue absent",
+		"optionType": "moment",
+		"defaultValue": "moment()"
+	},
+	"fa-time-picker/defaultValue": {
+		"description": "to set default time",
+		"optionType": "moment",
+		"defaultValue": "-"
+	},
+	"fa-time-picker/disabled": {
+		"description": "determine whether the TimePicker is disabled",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-time-picker/disabledHours": {
+		"description": "to specify the hours that cannot be selected",
+		"optionType": "function()",
+		"defaultValue": "-"
+	},
+	"fa-time-picker/disabledMinutes": {
+		"description": "to specify the minutes that cannot be selected",
+		"optionType": "function(selectedHour)",
+		"defaultValue": "-"
+	},
+	"fa-time-picker/disabledSeconds": {
+		"description": "to specify the seconds that cannot be selected",
+		"optionType": "function(selectedHour, selectedMinute)",
+		"defaultValue": "-"
+	},
+	"fa-time-picker/format": {
+		"description": "to set the time format",
+		"optionType": "string",
+		"defaultValue": "\"HH:mm:ss\""
+	},
+	"fa-time-picker/getPopupContainer": {
+		"description": "to set the container of the floating layer, while the default is to create a div element in body",
+		"optionType": "function(trigger)",
+		"defaultValue": "-"
+	},
+	"fa-time-picker/hideDisabledOptions": {
+		"description": "hide the options that can not be selected",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-time-picker/hourStep": {
+		"description": "interval between hours in picker",
+		"optionType": "number",
+		"defaultValue": "1"
+	},
+	"fa-time-picker/inputReadOnly": {
+		"description": "Set the readonly attribute of the input tag (avoids virtual keyboard on touch devices)",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-time-picker/minuteStep": {
+		"description": "interval between minutes in picker",
+		"optionType": "number",
+		"defaultValue": "1"
+	},
+	"fa-time-picker/open": {
+		"description": "whether to popup panel",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-time-picker/placeholder": {
+		"description": "display when there's no value",
+		"optionType": "string",
+		"defaultValue": "\"Select a time\""
+	},
+	"fa-time-picker/popupClassName": {
+		"description": "className of panel",
+		"optionType": "string",
+		"defaultValue": "''"
+	},
+	"fa-time-picker/secondStep": {
+		"description": "interval between seconds in picker",
+		"optionType": "number",
+		"defaultValue": "1"
+	},
+	"fa-time-picker/suffixIcon": {
+		"description": "The custom suffix icon",
+		"optionType": "string | VNode | slot",
+		"defaultValue": "-"
+	},
+	"fa-time-picker/use12Hours": {
+		"description": "display as 12 hours format, with default format h:mm:ss a",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-time-picker/value": {
+		"description": "to set time",
+		"optionType": "moment",
+		"defaultValue": "-"
+	}
+}

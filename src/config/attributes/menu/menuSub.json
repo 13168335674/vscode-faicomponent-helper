@@ -1,0 +1,22 @@
+{
+	"fa-sub-menu/children": {
+		"description": "sub menus or sub menu items",
+		"optionType": "Array<MenuItem|SubMenu>",
+		"defaultValue": ""
+	},
+	"fa-sub-menu/disabled": {
+		"description": "whether sub menu is disabled or not",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-sub-menu/key": {
+		"description": "unique id of the sub menu",
+		"optionType": "string",
+		"defaultValue": ""
+	},
+	"fa-sub-menu/title": {
+		"description": "title of the sub menu",
+		"optionType": "string|slot",
+		"defaultValue": ""
+	}
+}

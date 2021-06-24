@@ -1,0 +1,17 @@
+{
+	"fa-textarea/autosize": {
+		"description": "Height autosize feature, can be set to true|false or an object { minRows: 2, maxRows: 6 }",
+		"optionType": "boolean|object",
+		"defaultValue": "false"
+	},
+	"fa-textarea/defaultValue": {
+		"description": "The initial input content",
+		"optionType": "string",
+		"defaultValue": ""
+	},
+	"fa-textarea/value": {
+		"description": "The input content value",
+		"optionType": "string",
+		"defaultValue": ""
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"fa-rate/allowClear": {
+		"description": "whether to allow clear when click again",
+		"optionType": "boolean",
+		"defaultValue": "true"
+	},
+	"fa-rate/allowHalf": {
+		"description": "whether to allow semi selection",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-rate/autoFocus": {
+		"description": "get focus when component mounted",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-rate/character": {
+		"description": "custom character of rate",
+		"optionType": "String or slot=\"character\"",
+		"defaultValue": "<Icon type=\"star\" />"
+	},
+	"fa-rate/count": {
+		"description": "star count",
+		"optionType": "number",
+		"defaultValue": "5"
+	},
+	"fa-rate/defaultValue": {
+		"description": "default value",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"fa-rate/disabled": {
+		"description": "read only, unable to interact",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-rate/value": {
+		"description": "current value",
+		"optionType": "number",
+		"defaultValue": "-"
+	}
+}

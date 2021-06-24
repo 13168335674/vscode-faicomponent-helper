@@ -1,0 +1,73 @@
+{
+	"fa-menu/defaultOpenKeys": {
+		"description": "array with the keys of default opened sub menus",
+		"optionType": "",
+		"defaultValue": ""
+	},
+	"fa-menu/defaultSelectedKeys": {
+		"description": "array with the keys of default selected menu items",
+		"optionType": "string[]",
+		"defaultValue": ""
+	},
+	"fa-menu/forceSubMenuRender": {
+		"description": "render submenu into DOM before it shows",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-menu/inlineCollapsed": {
+		"description": "specifies the collapsed status when menu is inline mode",
+		"optionType": "boolean",
+		"defaultValue": "-"
+	},
+	"fa-menu/inlineIndent": {
+		"description": "indent px of inline menu item on each level",
+		"optionType": "number",
+		"defaultValue": "24"
+	},
+	"fa-menu/mode": {
+		"description": "type of the menu; vertical, horizontal, and inline modes are supported",
+		"optionType": "string: vertical | vertical-right | horizontal | inline",
+		"defaultValue": "vertical"
+	},
+	"fa-menu/multiple": {
+		"description": "Allow selection of multiple items",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"fa-menu/openKeys": {
+		"description": "array with the keys of currently opened sub menus",
+		"optionType": "string[]",
+		"defaultValue": ""
+	},
+	"fa-menu/selectable": {
+		"description": "allow selecting menu items",
+		"optionType": "boolean",
+		"defaultValue": "true"
+	},
+	"fa-menu/selectedKeys": {
+		"description": "array with the keys of currently selected menu items",
+		"optionType": "string[]",
+		"defaultValue": ""
+	},
+	"fa-menu/style": {
+		"description": "style of the root node",
+		"optionType": "object",
+		"defaultValue": ""
+	},
+	"fa-menu/subMenuCloseDelay": {
+		"description": "delay time to hide submenu when mouse leave, unit: second",
+		"optionType": "number",
+		"defaultValue": "0.1"
+	},
+	"fa-menu/subMenuOpenDelay": {
+		"description": "delay time to show submenu when mouse enter, unit: second",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"fa-menu/theme": {
+	  "options": ["light", "dark"],
+		"description": "color theme of the menu",
+		"optionType": "string: light dark",
+		"defaultValue": "light"
+	}
+}
