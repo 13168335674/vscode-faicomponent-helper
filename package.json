@@ -2,7 +2,7 @@
   "name": "vscode-faicomponent-helper",
   "displayName": "faicomponent helper",
   "description": "A vscode extension for faicomponent",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "adi",
   "repository": {
     "type": "git",
@@ -63,10 +63,10 @@
   },
   "main": "./out/extension.js",
   "scripts": {
-    "vscode:prepublish": "npm run compile",
+    "vscode:prepublish": "yarn run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "pretest": "npm run compile && npm run lint",
+    "pretest": "yarn run compile && yarn run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js"
   },
