@@ -12,6 +12,12 @@
 
 ## Document
 
+![Snippets](./snippets/step.gif)
+
+![Snippets](./snippets/step2.gif)
+
+![Document](./snippets/step3.gif)
+
 ### Usage
 
 * Move cursor to Faicomponent Helper tag or select it
