@@ -2,7 +2,7 @@
   "name": "vscode-faicomponent-helper",
   "displayName": "faicomponent helper",
   "description": "A vscode extension for faicomponent",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "adi",
   "repository": {
     "type": "git",
